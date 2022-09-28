@@ -4,9 +4,21 @@
        body{
             display: block;
             text-align: center;
-            text-decoration: underline;
             justify-content: center;
             background-image: url(ImagensTerra/Terraria1.png);
             background-repeat: no-repeat;
             background-size: cover;
         }
+
+        .texto{
+            color: #000;
+              text-shadow: 
+                       -1px -1px 0px #FFF, 
+                       -1px 1px 0px #FFF,                    
+                        1px -1px 0px #FFF,                  
+                        1px 0px 0px #FFF;
+        }
+
+        h1{
+          font-size: 4em;
+      }
